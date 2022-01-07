@@ -1,7 +1,7 @@
 package com.example.HotelManagment.Login;
 
 
-/*import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -27,13 +27,13 @@ public class LoginService
     }
 
 
-    public void delete(UserLogin login)
+    public void deleteUser(long id)
     {
-        userRepo.delete(login);
+        userRepo.deleteById(id);
     }
 
     public List<UserLogin> getUsers()
     {
         return userRepo.findAll();
     }
-}*/
+}

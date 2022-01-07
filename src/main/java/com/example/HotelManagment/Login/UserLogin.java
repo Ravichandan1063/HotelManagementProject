@@ -1,9 +1,8 @@
 package com.example.HotelManagment.Login;
 
-/*import javax.persistence.*;
+import javax.persistence.*;
 
 @Entity
-@Table(name = "userLogin")
 public class UserLogin
 
 {
@@ -48,4 +47,4 @@ public class UserLogin
     public void setPassword(String password) {
         this.password = password;
     }
-}*/
+}

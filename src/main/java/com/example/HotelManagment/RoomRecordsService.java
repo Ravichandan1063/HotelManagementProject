@@ -23,7 +23,7 @@ public class RoomRecordsService
         return repository.findAll();
     }
 
-    public Optional<Rooms> getByDate(long id)
+    public Optional<Rooms> getById(long id)
     {
         return repository.findById(id);
     }
@@ -33,14 +33,18 @@ public class RoomRecordsService
         repository.deleteById(id);
     }
 
+
+
+
    /*public  Rooms update(Rooms rooms)
     {
         repository.save(rooms);
         return rooms;
-    }*/
-   List<Rooms> findByName(String date)
-   {
+    }
 
-   }
+      public List<Rooms> getByDae(String date)
+    {
+        return repository.findAll();
+    }*/
 
 }

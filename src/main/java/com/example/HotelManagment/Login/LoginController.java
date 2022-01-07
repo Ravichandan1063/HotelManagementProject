@@ -1,6 +1,6 @@
 package com.example.HotelManagment.Login;
 
-/*import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -31,10 +31,10 @@ public class LoginController
         return loginService.getUsers();
     }
 
-    @DeleteMapping("/rooms/user")
-    public  void delete(@RequestBody UserLogin login)
+    @DeleteMapping("/rooms/user/{id}")
+    public  void deleteUser(@PathVariable("id") long id)
     {
-        loginService.delete(login);
+        loginService.deleteUser(id);
     }
 
-}*/
+}

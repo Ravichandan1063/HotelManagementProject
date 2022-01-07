@@ -1,16 +1,16 @@
 package com.example.HotelManagment.Login;
 
 
-/*import javax.persistence.*;
+import javax.persistence.*;
 
 @Entity
-@Table(name = "adminLogin")
 public class AdminLogin
 
 {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
     private String username;
     private String password;
 
@@ -48,4 +48,4 @@ public class AdminLogin
     public void setPassword(String password) {
         this.password = password;
     }
-}*/
+}
